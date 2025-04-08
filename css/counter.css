@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 500px;
+  height: 500px;
+  background: #7f8252;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 20px;
+}
+h2 {
+  font-size: 35px;
+  margin-top: 50px;
+  padding-top: 50px;
+  color: rgb(46, 11, 7);
+  margin-bottom: 100px;
+}
+.counter {
+  margin-bottom: 100px;
+  font-size: 70px;
+  color: brown;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.btn .increase {
+  font-size: 20px;
+  padding: 12px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+  color: #0b0a0a;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  transition: all linear 0.4s;
+}
+/* .btn .increase::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(7, 108, 232);
+  height: 100%;
+  width: 0%;
+  border-radius: 10px 0 0 10px;
+  z-index: -1;
+  transition: all linear 0.4s;
+}
+.btn .increase:hover::after {
+  width: 100%;
+  color: #fff;
+}
+.btn .increase:hover {
+  color: #fff;
+} */
+
+.btn .decrease {
+  font-size: 20px;
+  padding: 12px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+  color: #0b0a0a;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  transition: all linear 0.4s;
+}
+/* .btn .decrease::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(247, 56, 142);
+  height: 100%;
+  width: 0%;
+  border-radius: 10px 0 0 10px;
+  z-index: -1;
+  transition: all linear 0.4s;
+}
+.btn .decrease:hover::after {
+  width: 100%;
+  color: #fff;
+}
+.btn .decrease:hover {
+  color: #fff;
+} */
+.btn .reset {
+  font-size: 20px;
+  padding: 12px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+  color: #0b0a0a;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  transition: all linear 0.4s;
+}
+
+/* .btn .reset::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(229, 38, 0);
+  height: 100%;
+  width: 0%;
+  border-radius: 10px 0 0 10px;
+  z-index: -1;
+  transition: all linear 0.4s;
+}
+.btn .reset:hover::after {
+  width: 100%;
+  color: #fff;
+}
+.btn .reset:hover {
+  color: #fff;
+} */
